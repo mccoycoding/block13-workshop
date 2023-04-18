@@ -1,3 +1,4 @@
+//Start of isTruthy Function
 function isTruthy(value) {
   if /*If value is truthy*/ (value) {
     //print the value is truthy
@@ -19,6 +20,26 @@ function isTruthy(value) {
     console.log("The value is a boolean False")
   };
 };
-
 //Execute the above function
 isTruthy(false)
+//End of isTruthy Function
+
+//Start of numberLine Function
+const numberLine = (num1, num2) => {
+  sum = num1 + num2;
+  if /*If sum is gt 100*/ (sum > 100){
+    console.log(`The sum of ${num1}+${num2}=${sum}, which is greater than 100`);
+  } /*If sum is lt 100, but gt 0*/ else if (sum < 100 && sum > 0){
+    console.log(`The sum of ${num1}+${num2}=${sum}, which is greater than 0`);
+  } /*If sum is eq to 0*/ else if (sum === 0){
+    console.log(`The sum of ${num1}+${num2}=${sum}`);
+  } /*If sum is lt 0, but gt -1000*/ else if (sum < 0 && sum > - 1000){
+    console.log(`The sum will be negative`);
+    console.log(`The sum of ${num1}+${num2}=${sum}, which is less than 0`);
+  } /*If sum is gt -1000*/ else if (sum < -1000){
+    console.log(`The sum will be negative`);
+    console.log(`The sum of ${num1}+${num2}=${sum}, which is less than -1000`);
+  };
+};
+//Execute numberLine Function
+numberLine(25, 76)
