@@ -42,4 +42,21 @@ const numberLine = (num1, num2) => {
   };
 };
 //Execute numberLine Function
-numberLine(25, 76)
+numberLine(25, 76);
+numberLine(50, -250);
+numberLine(-525, -525);
+//End of numberLine Function
+
+//Start of isGreaterThanFive Function
+const isGreaterThanFive = (num1, num2) => {
+  if (num1 >= 5 && num2 >= 5) {
+    console.log(true);
+  } else if ((num1 >= 5 && num2 < 5) || (num1 < 5 && num2 >= 5) || (num1 > 5 && num2 > 5)){
+    console.log(false);
+  };
+};
+//Execute isGreaterThanFive Function
+isGreaterThanFive(25, 2);
+isGreaterThanFive(2, 25);
+isGreaterThanFive(2, 2);
+//End of isGreaterThanFive Function
