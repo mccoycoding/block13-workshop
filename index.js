@@ -60,7 +60,7 @@ const isGreaterThanFive = (num1, num2) => {
   if /*If both numbers are ge 5*/ (num1 >= 5 && num2 >= 5) {
     //print true
     console.log(true);
-  } /*If one of the numbers are lt 5*/ else if ((num1 >= 5 && num2 < 5) || (num1 < 5 && num2 >= 5) || (num1 > 5 && num2 > 5)){
+  } /*If one of the numbers are lt 5*/ else if ((num1 >= 5 && num2 < 5) || (num1 < 5 && num2 >= 5) || (num1 < 5 && num2 < 5)){
     //print false
     console.log(false);
   };
