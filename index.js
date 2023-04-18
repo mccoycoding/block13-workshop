@@ -60,3 +60,20 @@ isGreaterThanFive(25, 2);
 isGreaterThanFive(2, 25);
 isGreaterThanFive(2, 2);
 //End of isGreaterThanFive Function
+
+//Start of pairAndCompare Function
+const pairAndCompare = (param1A, param1B, param2A, param2B) => {
+  if (param1A === param1B || param2A === param2B){
+    console.log(true);
+  } else (
+    console.log(false)
+  )
+};
+//Execute and test pairAndCompare Function
+pairAndCompare("cat", "cat", 6, "6");
+pairAndCompare("five", 5, "dog", "dawg");
+pairAndCompare(0, false, "horse", "horse");
+pairAndCompare("eight", "eight", "ate", "ate");
+pairAndCompare(11, "eleven", "four", "for");
+pairAndCompare("cake", "cake", "pie", "pie");
+//End of pairAndCompare Function
